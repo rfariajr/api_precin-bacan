@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: http://localhost");
 $request_method = $_SERVER['REQUEST_METHOD'];
 if($request_method == 'POST') {
     $address = "dados/db.csv";
